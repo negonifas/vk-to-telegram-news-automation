@@ -1,0 +1,51 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Секреты и переменные окружения
+.env
+*.env
+
+# Временные и кэшированные файлы
+cache/
+dupes/
+temp_dataset/
+*.log
+*.tmp
+
+# Конфиги IDE
+.idea/
+.vscode/
+
+# Бинарные и большие файлы
+*.sqlite3
+*.db
+*.bak
+*.swp
+
+# Личные/тестовые файлы
+*.local
+*.DS_Store
+
+# Разрешаем только нужное
+!database/db.py
+!src/text_processing/ai/deepseek.py
+!src/text_processing/ai/gigachat.py
+!src/text_processing/functions.py
+!src/text_processing/pipeline.py
+!src/config_channels.py
+!src/vk_function.py
+!src/vk_video_downloader.py
+!userbot/userbot_tg_functions.py
+!run.py
+!requirements.txt
+!.env.example
+!README.md
+!.gitignore
