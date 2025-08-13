@@ -167,7 +167,7 @@ cp .env.example .env
 ### 3. Настройка базы данных
 
 ```sql
--- Создайте PostgreSQL базу и выполните миграции
+-- Создайте PostgreSQL базу
 -- SQL схемы находятся в database/schema.sql
 ```
 
